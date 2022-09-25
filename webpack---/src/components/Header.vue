@@ -1,0 +1,4 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.isBackGround?'navbar action':'navbar'},[(_vm.isBack)?_c('div',{staticClass:"navbar-left"},[_c('div',{staticClass:"bank c-row c-row-middle-center",on:{"click":_vm.backPage}},[_c('img',{staticClass:"navbar-back",attrs:{"src":require('../assets/images/icon/back.png')}})])]):_c('div',{staticClass:"navbar-left"},[_vm._t("left")],2),_c('div',{staticClass:"navbar-title"},[_vm._t("default")],2),_c('div',{staticClass:"navbar-right"},[_vm._t("right")],2)])}
+var staticRenderFns = []
+
+export { render, staticRenderFns }
